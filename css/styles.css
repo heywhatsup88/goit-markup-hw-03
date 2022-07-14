@@ -20,6 +20,9 @@ ul, ol {
 
 .container {
     width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
 }
 
 a {
@@ -99,7 +102,7 @@ body {
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1,36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -130,7 +133,7 @@ body {
 .advantages-description {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,7;
     color: var(--text-color);
 }
 
@@ -220,10 +223,10 @@ body {
 .footer .address-link {
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.7;
 }
 
-footer .contacts-link {
+.footer .contacts-link {
     
     font-style: normal;
     font-weight: 400;
