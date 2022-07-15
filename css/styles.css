@@ -22,7 +22,7 @@ ul, ol {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
 }
 
 a {
@@ -96,10 +96,12 @@ body {
 }
 
 .hero {
+    text-align: center;
     background: var(--sections-color);
 }
 
 .hero-title {
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1,36;
@@ -110,6 +112,7 @@ body {
 }
 
 .hero .button {
+    padding: 10px 32px;
     color: var(--background-color);
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -165,7 +168,8 @@ body {
 }
 
 .section {
-    background-color: var(--sections-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .team {
