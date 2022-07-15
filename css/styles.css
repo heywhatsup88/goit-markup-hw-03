@@ -43,9 +43,13 @@ body {
 
 .header {
     background-color: var(--background-color);
+    border: 1px solid #ECECEC;
 }
 
 .logo {
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 25px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -54,6 +58,7 @@ body {
 
 .header .logo {
     color: #000000;
+    
 }
 
 .accent {
@@ -61,14 +66,13 @@ body {
 
 }
 
-.header .contacts-link {
-    color: var(--text-color);
-}
 
 .header .contacts-link {
+    display: flex;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: var(--text-color);
 }
 
 .nav-link {
@@ -86,13 +90,37 @@ body {
     color: var(--accent-color);
 }
 
+.site-nav {
+    display:flex
+}
+
+.site-nav .item {
+    margin-right: 50px;
+}
+
+.site-nav .item:last-child {
+    margin-right: 0;
+}
+
 .site-nav .current {
     color: var(--accent-color);
+}
+
+.contacts {
+    display: flex;
+}
+
+.contacts .item + .item {
+    margin-left: 50px;
 }
 
 .contacts-link:hover 
 .contacts-link:focus {
     color: var(--accent-color);
+}
+
+.header-nav {
+    display: flex;
 }
 
 .hero {
@@ -126,6 +154,7 @@ body {
 
 
 .advantages-title {
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -134,6 +163,7 @@ body {
 }
 
 .advantages-description {
+    margin-bottom: 30px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1,7;
@@ -141,6 +171,7 @@ body {
 }
 
 .section-title {
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -148,6 +179,7 @@ body {
 }
 
 .team-title {
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.116;
     text-align: center;
@@ -155,6 +187,8 @@ body {
 }
 
 .team-member-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -189,6 +223,11 @@ body {
     cursor: pointer
 }
 
+.section .buttons {
+    display: inline-block;
+    margin-bottom: 34px;
+}
+
 .buttons .button {
     font-family: inherit;
     font-weight: 500;
@@ -219,24 +258,35 @@ body {
     background-color: var(--sections-color);
 }
 
+.footer .logo {
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+}
+
 .footer .studio,
 .address .address-link {
     color: var(--background-color);
 }
 
 .footer .address-link {
+    display: inline-block;
+    margin-bottom: 9px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.7;
 }
 
 .footer .contacts-link {
-    
+    margin-bottom: 9px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.7;
     color: var(--contacts-link);
 }
+
+
 
 .contacts-link:hover,
 .contacts-link:focus {
