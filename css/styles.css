@@ -42,6 +42,10 @@ img {
     display: flex;
 }
 
+.advantages-list .list-item {
+    width: 270px;;
+}
+
 .team-list {
     display: flex;
     
@@ -75,6 +79,11 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .header {
@@ -129,6 +138,12 @@ body {
     color: var(--accent-color);
 }
 
+.contacts {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
 .site-nav {
     display:flex
 }
@@ -145,10 +160,11 @@ body {
     color: var(--accent-color);
 }
 
-.contacts {
+.page-header {
     display: flex;
-    margin-left: auto;
 }
+
+
 
 .contacts .item + .item {
     margin-left: 50px;
@@ -166,16 +182,20 @@ body {
 }
 
 .hero {
+    padding: 200px 0;
     text-align: center;
     background: var(--sections-color);
 }
 
 .hero-title {
     /* margin-top: 200px; */
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -183,6 +203,7 @@ body {
 }
 
 .hero .button {
+    border: none;
     padding: 10px 32px;
     /* margin-bottom: 200px; */
     color: var(--background-color);
@@ -218,6 +239,10 @@ body {
     color: var(--text-color);
 }
 
+.about {
+    padding-top: 0;
+}
+
 .section-title {
     margin-bottom: 50px;
     font-size: 36px;
@@ -235,8 +260,8 @@ body {
 }
 
 .team-member-title {
-    margin-top: 30px;
-    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -248,11 +273,6 @@ body {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-}
-
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .team {
@@ -307,25 +327,23 @@ body {
 
 
 .projects-description {
-
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 20px;
     font-size: 16px;
     line-height: 1.87;
 }
 
 .projects-card { 
-    padding-top: 30px;
     border: 1px solid #ccc;
     border-top: none;
 }
 
 .projects-title {
-    margin-top: 20px;
     margin-bottom: 4px;
-    margin-left: 24px;
-    margin-right: 24px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -339,20 +357,26 @@ body {
 }
 
 .footer {
+    padding: 60px 0;
     background-color: var(--sections-color);
 }
 
 .footer .logo {
-    margin-top: 60px;
-    padding-bottom: 0;
-    padding-top: 0;
-    margin-bottom: 20px;
-    margin-right: 0;
+    padding: 0;
     display: inline-block;
+    margin-bottom: 20px;
+}
+
+.footer .studio {
+    margin-bottom: 20px;
 }
 
 .address {
-    padding-bottom: 60px;
+    padding: 0;
+}
+
+.address .item:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .footer .studio,
@@ -362,21 +386,18 @@ body {
 
 .footer .address-link {
     display: inline-block;
-    margin-bottom: 9px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.7;
 }
 
 .footer .contacts-link {
-    margin-bottom: 9px;
+    display: inline-block;
     font-style: normal;
     font-weight: 400;
     line-height: 1.7;
     color: var(--contacts-link);
 }
-
-
 
 .contacts-link:hover,
 .contacts-link:focus {
