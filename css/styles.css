@@ -138,7 +138,7 @@ body {
     color: var(--accent-color);
 }
 
-.contacts {
+.contacts-list {
     display: flex;
     margin-left: auto;
     align-items: center;
@@ -166,7 +166,7 @@ body {
 
 
 
-.contacts .item + .item {
+.contacts-list .item + .item {
     margin-left: 50px;
 }
 
@@ -280,7 +280,7 @@ body {
 }
 
 
-.contacts, .nav-link, p {
+.contacts-list, .nav-link, p {
     color: var(--text-color);
 }
 
