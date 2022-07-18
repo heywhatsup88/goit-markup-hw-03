@@ -87,6 +87,7 @@ body {
 }
 
 .header {
+    padding: 24px 0;
     background-color: var(--background-color);
     border-bottom: 1px solid #ECECEC;
 }
@@ -94,8 +95,6 @@ body {
 .logo {
     display: inline-block;
     margin-right: 93px;
-    padding-top: 25px;
-    padding-bottom: 25px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -128,8 +127,6 @@ body {
 }
 
 .nav-link {
-    padding-top: 32px;
-    padding-bottom: 32px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -264,7 +261,7 @@ body {
 }
 
 .team-descprition {
-    margin-bottom: 30px; 
+    padding-bottom: 30px; 
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -357,6 +354,7 @@ body {
 }
 
 .footer .logo {
+    margin-right: 0;
     padding: 0;
     display: inline-block;
     margin-bottom: 20px;
